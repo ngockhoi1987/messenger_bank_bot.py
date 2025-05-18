@@ -4,8 +4,8 @@ import requests, random, time
 app = Flask(__name__)
 
 # === ĐIỀN TOKEN CỦA BẠN Ở ĐÂY ===
-VERIFY_TOKEN = "your_verify_token"
-PAGE_ACCESS_TOKEN = "your_page_access_token"
+VERIFY_TOKEN = "mySuperSecretToken123"
+PAGE_ACCESS_TOKEN = "EAAfALhUeIpoBO614HYFkT3t0SfZAuqZAfNY4ZACusoEciFrQW06VmdigNjRWIZCCZB0itcpEyTVqGhsn55vJpTRvpgDJIJzG4IOL2dholW2gnwRKwynVVpXxH3PWdNZBiyPZBci7LsEQMt3JAhtI6qbD1MvQSKgUQoT6VpyE8bpMd72GOmT7IBH4j6VQEp9jAt3ID0dFnYgpikqLelMbBHtobcsNQZDZD"
 # ================================
 
 users = {}
